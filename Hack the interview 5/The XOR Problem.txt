@@ -1,0 +1,36 @@
+Given an integer, your task is to find another integer such that their bitwise XOR is maximum.
+
+More specifically, given the binary representation of an integer  of length , your task is to find another binary number  of length  with at most  set bits such that their bitwise XOR is maximum.
+
+For example, let's say that  = "0100" and  = 1. The maximum possible XOR can be obtained with  = "1000", where  XOR  = "1100".
+
+Input Format
+
+The first line of input contains an integer, , the number of tests.
+
+The first line of each test contains a binary string representing .
+
+The second line of each test contains an integer, , denoting the maximum number of set bits in .
+
+Constraints
+
+Output Format
+
+Print exactly  lines. In the  of them, print the string denoting  in the  test case.
+
+Sample Input 0
+
+2
+10010
+5
+01010
+1
+Sample Output 0
+
+01101
+10000
+Explanation 0
+
+For the first case, (x xor y) gives 11111 which is the maximum possible number that can be obtained.
+
+In the second case, (x xor y) gives 11010. Note that any other y would given a lesser xor sum.

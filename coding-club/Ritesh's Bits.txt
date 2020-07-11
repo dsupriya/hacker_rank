@@ -1,0 +1,64 @@
+Bits are important for Ritesh, he loves a decimal number if and only if the least significant bit of its binary representation is . Ayush gave ritesh some data to work on and ritesh is allowed to modify atmost  of those numbers. Modification means that he can choose any integer from the list and change its value to any other (or same) integer of his choice.
+
+Kindly tell what is the maximum count of numbers present in the final list which Ritesh loves.
+
+Input Format
+
+First Line contains an integer denoting Number of test cases
+
+For each test case there are 2 lines
+
+First line of each test case consider 2 integers  denoting size of datalist and  is as described in the question.
+
+Second line contains  integers denoting the elements of datalist
+
+Constraints
+
+
+
+
+Output Format
+
+For each test case, print a single integer denoting the answer to the question on a seperate line
+
+Sample Input 0
+
+2
+2 5
+8 7 
+2 4
+6 1 
+Sample Output 0
+
+2
+2
+Explanation 0
+
+Since Ritesh can change any numbers he wishes, In first test and second test cases he changes all the numbers to 3 ("11" in binary) and thus answer for both cases is 2
+
+Sample Input 1
+
+2
+5 3
+3 7 6 6 3 
+2 2
+9 1 
+Sample Output 1
+
+5
+2
+Explanation 1
+
+In first test, other than 3 he changes all number to 3 and thus answer is 5 for that case
+
+Sample Input 2
+
+2
+4 4
+2 7 7 6 
+2 1
+6 4 
+Sample Output 2
+
+4
+1

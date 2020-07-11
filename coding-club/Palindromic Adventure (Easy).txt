@@ -1,0 +1,47 @@
+Please note that easy and hard version have same theme but are actually different questions
+
+Ayush loves strings, especially palindromes. He was given a string, he wishes to know the longest palindrome he can make with the characters of the string, but he wants that string to be lexicographically smallest string.
+
+For example, if s = "abcdab", few of the possible pallindromes are a,b,aba,bacab,abcba Out of longest palindromes, we need to select lexicographically smallest one, thus answer is "abcba"
+
+Input Format
+
+A single string of lowercase characters only
+
+Constraints
+
+
+Output Format
+
+Output the lexicographically smallest pallindrome which is longest in length
+
+Sample Input 0
+
+xpnwijf
+Sample Output 0
+
+f
+Explanation 0
+
+There is no pallindrome possible from characters of input of length greater than 1
+
+Among all possible pallindromes of length 1, "f" is lexicographically smallest
+
+Sample Input 1
+
+gvgqdi
+Sample Output 1
+
+gdg
+Explanation 1
+
+Longest length possible is 3 only, possible pallindromes are 1. "gvg" 2. "gqg" 3. "gdg" 4. "gig"
+
+"gdg" is lexicographically smallest
+
+Sample Input 2
+
+golsg
+Sample Output 2
+
+glg
